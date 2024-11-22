@@ -1,0 +1,122 @@
+.login-main-head{
+    font-size:1.5em;
+    text-align:center;
+    color: #000;
+    font-weight: 600;
+  margin-top:0;
+  margin-bottom:0;
+} 
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White form background */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 25px; /* Padding inside the container */
+    
+}
+
+
+.lg-inp{
+    outline:none;
+    cursor:pointer;
+    border-radius:6px;
+    padding:6px;
+     margin-top: 4px;
+     width:100%;
+     color: #333333;
+     border: 1px solid #cccccc;
+     background-color: #fafafa;
+ 
+ }
+ 
+ .lg-inp:focus {
+     outline: none;
+     border-color: #007bff;
+     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+   }
+   
+ 
+ .lg-inp::placeholder{
+     font-size:0.6em;
+     color: #522c9f;
+     font-weight: 500;
+ }
+ 
+ .lg-label{
+     font-size:0.7em;
+     color:black;
+     font-weight: 500;
+ }
+ 
+ .lg-inp-label-con{
+     margin-bottom:10px;
+ }
+
+
+ .lg-button-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:20px;
+    box-sizing:border-box;
+  }
+
+  .lg-button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s linear;
+    margin-bottom:0;
+  }
+  
+
+  .lg-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }
+
+
+  .lg-err-para{
+      font-size:0.5em;
+      color:red;
+      font-weight:500;
+  }
+
+  .forgot-password{
+    background-color:transparent;
+     color:blue;
+     font-size:0.6em;
+     font-weight: 600;
+     border:none;
+     cursor:pointer;
+     margin-bottom:0;
+  }
+
+  .final-lg-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  }
+
+  .back-butt{
+    background-color:transparent;
+    border:none;
+    font-size:16px;
+    font-weight:600;
+    align-self:flex-start;
+    color:black;
+  
+  }

@@ -1,0 +1,79 @@
+.bal-balance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .bal-icon-container {
+    background-color: green; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .bal-check-icon {
+    color: white; 
+    font-size: 30px; 
+  }
+  
+  .bal-balance-display {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 5px;
+  }
+  
+  .bal-rupee-icon {
+    font-size: 24px;
+    color: #4caf50; 
+  }
+  
+  .bal-balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; 
+  }
+  
+  .bal-balance-label {
+    font-size: 16px;
+    color: #555; 
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .bal-error-message {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .fin-bal-con{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  }
+
+  .bal-loading-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+  }
+
+  .back-butt{
+    background-color:transparent;
+    border:none;
+    font-size:16px;
+    font-weight:600;
+    align-self:flex-start;
+    color:black;
+
+  }

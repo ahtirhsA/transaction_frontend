@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light gray background for a clean look */
+    overflow: hidden;
+}
+
+.reg_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White form background */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 25px; /* Padding inside the container */
+}
+
+
+.reg-main-head{
+    font-size:1.5em;
+    text-align:center;
+    color: #000;
+    font-weight: 600;
+  margin-top:0;
+  margin-bottom:0;
+} 
+
+
+
+.registration-inp{
+   outline:none;
+   cursor:pointer;
+   border-radius:6px;
+   padding:6px;
+    margin-top: 4px;
+    width:100%;
+    color: #333333;
+
+    border: 1px solid #cccccc;
+    background-color: #fafafa;
+
+}
+
+.registration-inp:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+
+.registration-inp::placeholder{
+    font-size:0.6em;
+    color: #522c9f;
+    font-weight: 500;
+}
+
+.reg-label{
+    font-size:0.7em;
+    color:black;
+    font-weight: 500;
+}
+
+.reg-inp-label-con{
+    margin-bottom:10px;
+}
+
+
+.reg-form{
+    padding:30px;
+    width:30vw;
+    height:50vh;
+    border-radius:10px;
+}
+
+
+.button-con {
+    text-align: center;
+  }
+  
+  .reg-button {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s linear;
+    margin-top:10px;
+  }
+  
+  .reg-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }
+  
+  .reg-err-para {
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .final-reg-con{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+  }
+  
+
+  .lg-page-button {
+    width: 7%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s linear;
+    margin-top:10px;
+  }
+
+  .lg-page-con{
+    text-align:right;
+  }
+  

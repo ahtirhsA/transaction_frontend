@@ -1,0 +1,97 @@
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background-color: rgb(190, 188, 188);
+  width: 60%;  
+  padding: 20px;
+  border-radius: 10px;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.greeting {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.icon-item {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease; 
+}
+
+.icon-item:hover {
+  transform: scale(1.1); 
+}
+
+.icon-circle {
+  width: 60px;           /* Fixed width to maintain a circle */
+  height: 60px;          /* Fixed height to match width */
+  display: flex;         /* Flex to center the icon */
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;  
+  border-radius: 50%;     /* Ensures circular shape */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.icon {
+  font-size: 40px;
+  color: white;  
+}
+
+.icon-label {
+  font-size: 16px;
+  color: #495057;  
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.icon-item:hover .icon-circle {
+  background-color: #218838;  
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.icon-item:hover .icon-label {
+  color: #37ad51;  
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.logout-butt {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+  color: black;
+}
